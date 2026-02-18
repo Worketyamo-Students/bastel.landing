@@ -1,12 +1,108 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="assets/index.css" />
-  </head>
-  <body>
-   
-  </body>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=stat_minus_1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montaga&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <title>landing page</title>
+
+</head>
+
+<body class="font-[roboto]">
+    <header class="w-full h-24 flex items-center justify-evenly px-10">
+        <div class="w-[20%] flex items-center justify-start">
+            <h3 class="font-bold text-[32px] font-[roboto] ">magnifico</h3>
+        </div>
+        <nav class="flex items-center gap-10 w-[50%] justify-between font-[roboto] text-[16px] font-medium">
+            <div class="flex items-center gap-5">
+                <a href="#">Products</a>
+                <span class="material-symbols-outlined">
+                    stat_minus_1
+                </span>
+
+            </div>
+            <div class="flex items-center gap-5">
+                <a href="#">Services</a>
+                <span class="material-symbols-outlined">
+                    stat_minus_1
+                </span>
+            </div>
+            <div class="flex items-center gap-5">
+                <a href="#">Help Center</a>
+                <span class="material-symbols-outlined">
+                    stat_minus_1
+                </span>
+            </div>
+            <div class="flex items-center gap-5">
+                <a href="#">Pricing</a>
+            </div>
+        </nav>
+        <div class=" w-[30%] flex items-center justify-end gap-5">
+            <button class="text-[#2563EB]">Login in</button>
+            <div class="flex items-center gap-5 bg-[#2563EB] text-white px-5 py-2 rounded-lg">
+                <button>Sign Up free</button>
+                <img src="assets/img/arrow.png" alt="fleche" class="w-4 h-auto">
+            </div>
+        </div>
+    </header>
+    <main class="w-full h-156 flex items-center justify-around font-[roboto] ">
+        <div class="w-150 h-110  rounded-lg flex items-center flex-col justify-evenly pt-8 pb-7">
+            <div class="gap-6 flex flex-col w-full h-60">
+                <h1 class="font-extrabold text-7xl font-[roboto]">Team projects, <br> done well</h1>
+                <p class="text-[18px] font-normal">The only platform that gives your team all the tools needed to work
+                    <br> together on their awesome
+                    projects.
+                </p>
+            </div>
+            <div class="flex-col flex w-full h-50 justify-evenly gap-6`  ">
+                <div class="w-fit h-12 flex justify-between items-center gap-5">
+                    <div class="w-102 h-12 flex  items-center gap-3 bg-[#F3F4F6] px-5 rounded-lg text-[#475569] border-[#475569] ">
+                        <img src="assets/img/email.png" alt="icone email" class="w-5 h-auto">
+                        <label for="email"></label>
+                        <input class="text-[16px]" type="email" id="email" name="email" placeholder="Enter work email">
+
+                    </div>
+                    <div class="w-44 h-12 flex items-center justify-end gap-5 bg-[#2563EB] text-white px-5 py-2 rounded-lg">
+                        <button>Sign Up free</button>
+                        <img src="assets/img/arrow.png" alt="fleche" class="w-4 h-auto">
+
+                    </div>
+                </div>
+                <div class="flex w-full h-14 items-center justify-evenly bg-[#F1F5F9] font-bold rounded-lg ">
+                    <div class="flex items-center justify-center gap-1">
+                        <img    src="assets/img/vector1.png" alt="vector" class="w-[22,8px] h-6">
+                        <p class="text-[18px] text-[#94A3B8]">Shell</p>
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                        <img src="assets/img/vector2.png" alt="vector" class="w-[24,87] h-6">
+                        <p class="text-[18px] text-[#94A3B8]">SmartFinder</p>
+                    </div>
+                    <div class="flex items-center justify-center gap-1">
+                        <img src="assets/img/vector3.png" alt="vector" class="w-[41,46px] h-6">
+                        <p class="text-[18px] text-[#94A3B8]">ArtVenue</p>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 ">
+                        <img src="assets/img/vector4.png" alt="vector" class="w-[15,77px] h-6">
+                        <p class="text-[18px] text-[#94A3B8]">WAVES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-150 h-110 bg-[#2563] rounded-lg">
+            <img class="w-fit h-fit" src="assets/img/video.png" alt="">
+        </div>
+
+    </main>
+    
+</body>
+
 </html>
